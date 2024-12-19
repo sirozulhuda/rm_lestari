@@ -118,23 +118,26 @@ body {
   margin-bottom: 20px;
 }
 
-.button {
-  color: #fff;
-  text-decoration: none;
+.wa-button {
+  display: inline-flex;
+  align-items: center;
+  background: #25d366;
+  color: white;
   padding: 10px 20px;
-  background-color: #a37c27;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1rem;
-  border: none;
   border-radius: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  transition: background 0.3s;
 }
 
-.button:hover {
-  transform: scale(1.05);
-  transition: all 0.2s ease-in-out;
+.wa-button i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.wa-button:hover {
+  background: #1ebd58;
 }
 
 .tentang-kami {
