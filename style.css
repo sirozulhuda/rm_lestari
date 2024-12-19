@@ -207,7 +207,6 @@ section.tentang-kami .content p {
   border-radius: 10px;
 }
 
-
 .menu-section {
   background-color: #3e2e00;
   padding: 50px 20px;
@@ -231,6 +230,7 @@ section.tentang-kami .content p {
 
 .menu-item {
   background-color: #a37c27;
+  cursor: pointer;
   padding: 20px;
   border-radius: 40px;
   text-align: center;
@@ -273,32 +273,30 @@ h2.lokasi-title {
   margin: 10px;
   text-align: center;
 }
-.lokasi-container{
+.lokasi-container {
   height: 662px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #3e2e00;
- 
 }
-.lokasi-left{
-  
+.lokasi-left {
   padding: 3rem;
   color: white;
   align-content: center;
 }
-.lokasi-right{
+.lokasi-right {
   padding: 0 3rem;
   align-content: center;
 }
-.lokasi-right img{
+.lokasi-right img {
   width: 100%;
 }
 
-.lokasi-left h2{
+.lokasi-left h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-.lokasi-left p{
+.lokasi-left p {
   font-size: 1rem;
   line-height: 1.5;
   margin-top: 10px;
@@ -306,7 +304,7 @@ h2.lokasi-title {
   max-width: 500px;
 }
 
-.lokasi-left .icon-desc p{
+.lokasi-left .icon-desc p {
   display: flex;
   gap: 0.5rem;
   margin-top: 1rem;
@@ -314,40 +312,38 @@ h2.lokasi-title {
   line-height: 1.5;
 }
 
-.lokasi-left .icon-desc p i{
+.lokasi-left .icon-desc p i {
   font-size: 1.5rem;
 }
 
-.lokasi-left .opening-hours h5{
+.lokasi-left .opening-hours h5 {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: normal;
 }
 
-.lokasi-left .opening-hours h5 span{
+.lokasi-left .opening-hours h5 span {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: normal;
 }
-.lokasi-left .opening-hours .jam-buka h5{
+.lokasi-left .opening-hours .jam-buka h5 {
   display: flex;
   gap: 4rem;
 }
 
-.lokasi-right a{
- cursor: pointer;
+.lokasi-right a {
+  cursor: pointer;
 }
 
-footer{
+footer {
   color: #fff;
   font-size: 1rem;
   display: flex;
-justify-content: center;
-background-color: #a37c27;
-padding:20px 10px;
+  justify-content: center;
+  background-color: #a37c27;
+  padding: 20px 10px;
 }
-
-
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -447,30 +443,29 @@ padding:20px 10px;
     text-align: center;
   }
 
-  .lokasi-container{
+  .lokasi-container {
     height: 750px;
     display: flex;
     flex-direction: column-reverse;
-    padding:10px;
+    padding: 10px;
     background-color: #3e2e00;
-   
   }
-  .lokasi-left{
+  .lokasi-left {
     padding: 1rem;
     color: white;
     justify-content: center;
   }
-  .lokasi-right{
+  .lokasi-right {
     padding: 0 1rem;
     justify-content: center;
   }
-  .lokasi-right img{
+  .lokasi-right img {
     width: 100%;
   }
 
-  footer{
+  footer {
     color: #ffffff;
     padding: 15px 5px;
-    font-size:0.5rem;
+    font-size: 0.5rem;
   }
 }

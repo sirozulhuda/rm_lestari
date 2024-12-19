@@ -18,3 +18,8 @@ navIcon.addEventListener("click", () => {
     icon.classList.add("fa-bars");
   }
 });
+
+AOS.init({
+  duration: 1300, // Durasi animasi dalam milidetik (default: 400)
+  once: true,
+});
