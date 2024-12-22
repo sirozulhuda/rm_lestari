@@ -415,6 +415,10 @@ footer {
     font-size: 12px;
     line-height: 1.4;
   }
+  .menu-container {
+    grid-template-columns: 1fr; /* Hanya satu kolom */
+    justify-items: center; /* Pusatkan item */
+  }
   .menu-title {
     font-size: 1.5rem;
   }
