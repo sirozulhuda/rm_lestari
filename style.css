@@ -279,6 +279,7 @@ h2.lokasi-title {
   grid-template-columns: 1fr 1fr;
   background-color: #3e2e00;
 }
+
 .lokasi-left {
   padding: 3rem;
   color: white;
@@ -317,13 +318,13 @@ h2.lokasi-title {
 }
 
 .lokasi-left .opening-hours h5 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   font-weight: normal;
 }
 
 .lokasi-left .opening-hours h5 span {
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   font-weight: normal;
 }
